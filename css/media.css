@@ -1,0 +1,349 @@
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media screen and (min-width:1200px) {
+
+    
+
+    }
+
+
+/* Large devices (laptops/desktops, 1200px and up) */
+    @media screen and (max-width:1200px) and (min-width: 929px){
+
+        .item-chef {
+            width: 48%; 
+            margin: 1%; 
+        }
+    
+        .item-container2 {
+            width: 90%; 
+            margin-top: 5%; 
+            margin-bottom: 5%;
+        }
+    
+       
+    
+
+    }
+
+   
+    
+   /* Medium devices (landscape tablets, 929px and up) */
+    @media screen and (max-width:929px) and (min-width: 786px){
+       
+       /* header section */
+
+       .nav-bar, .menu {
+        text-align: center;
+    }
+    .hero-content {
+        text-align: center;
+        padding: 30px;
+    }
+    .hero-image, .hero-content {
+        width: 80%;
+        float: none;
+        margin: 0 auto;
+    }
+    .hero-content h2 {
+        font-size: 2.5rem;
+    }
+    .hero-content p {
+        font-size: 14px;
+    }
+.hero-image img{
+    width:80%;
+    padding:10px;
+}
+
+
+        /* Chef selection */
+
+        .item-chef {
+            width: 95%; 
+            margin: 0; 
+        }
+    
+        .item-container2 {
+            width: 95%; 
+            margin-top: 2%; 
+            margin-bottom: 2%; 
+        }
+    
+        .main-title h2 {
+            font-size: 3rem;
+        }
+
+
+
+     /* Third section */
+
+     .container3 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* forth ::selection   */
+
+     .map iframe {
+        width: 70%;
+    }
+
+     /* details section */
+     .icon {
+        width: 100%;
+        margin: 2% 0;
+        padding: 2%;
+        
+    }
+    .icon i {
+        display: block;
+        margin: 0 auto 10px;
+        font-size: 1rem;
+    }
+   
+
+
+       /* form selection */
+
+       .column {
+        width: 100%;
+    }
+
+
+
+
+
+    /* Footer selection */
+    .footer-section {
+        flex: 1;
+    }
+    .search-div {
+        flex: 2;
+    }
+    .quick-links ul {
+        columns: 1;
+    }
+}
+
+
+
+   
+
+/* Small devices (portrait tablets and large phones, 786px and up) */
+    @media screen and (max-width:786px) and (min-width: 600px){
+
+/* Header section */
+        .nav-bar {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .menu {
+            margin-top: 20px;
+        }
+        .hero-content h2 {
+            font-size: 2.5rem;
+            
+        }
+        .hero-content p {
+            font-size: 14px;
+        }
+        .hero-image {
+            width: 80%;
+            float: none;
+            margin: 0 auto;
+        }
+        .hero-content {
+            width: 80%;
+            float: none;
+            margin: 0 auto;
+            padding: 30px;
+        }
+    /* chef section  */
+        .item-chef {
+            width: 95%; 
+            margin: 0; 
+        }
+    
+        .item-container2 {
+            width: 100%; 
+           
+        }
+    
+        .main-title h2 {
+            font-size: 2.5rem;
+        }
+
+        /* Third section */
+        .container3 {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+
+        /* forth selection   */
+    
+     .map iframe {
+        width: 80%;
+    }
+    
+        /* details section */
+        .icon {
+            width: 100%;
+            margin: 2% 0;
+            padding: 2%;
+            
+        }
+        .icon i {
+            display: block;
+            margin: 0 auto 10px;
+            font-size: 1rem;
+        }
+       
+        /* form selection */
+
+            .form-container {
+                max-width: 90%;
+            }
+            .column {
+                width: 100%;
+            }
+            input[type="submit"] {
+                padding: 12px 30px;
+                font-size: 14px;
+            }
+
+            /* footer section  */
+
+            .footer-section, .search-div {
+                flex: 1;
+                margin: 2% 0;
+                text-align: center;
+            }
+            .footer-section p, .search-div p {
+                font-size: 14px;
+            }
+    }
+
+
+/* Extra small devices (phones, 600px and down) */
+
+    @media screen and (max-width:600px) {
+
+        /* Header section */
+
+        .nav-bar {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .menu {
+            margin-top: 20px;
+        }
+        .hero-content h2 {
+            font-size: 2rem;
+        }
+        .hero-content p {
+            font-size: 12px;
+        }
+        .hero-image {
+            width: 80%;
+            float: none;
+            margin: 0 auto;
+        }
+        .hero-content {
+            width: 80%;
+            float: none;
+            margin: 0 auto;
+            padding: 30px;
+        }
+
+    /* Chef section */
+        .item-chef {
+            width: 95%; 
+            margin: 0; 
+        }
+    
+        .item-container2 {
+            width: 100%; 
+           
+        }
+    
+        .main-title h2 {
+            font-size: 2.5rem;
+        }
+
+        /* Third Section */
+
+        .container3 {
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 5px; 
+        }
+
+
+        /* forth selection   */
+    
+     .map iframe {
+        width: 90%;
+    }
+
+     /* details section */
+     .icon {
+        width: 100%;
+        margin: 2% 0;
+        padding: 2%;
+        
+    }
+    .icon i {
+        display: block;
+        margin: 0 auto 10px;
+        font-size: 1rem;
+    }
+
+
+
+
+     /* form selection */
+
+     .form-container {
+        max-width: 100%;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+    }
+    input[type="submit"] {
+        padding: 10px 25px;
+        font-size: 12px;
+    }
+   
+/* footer section */
+.footer {
+    padding: 5% 10%;
+}
+.footer-section, .search-div {
+    flex: 1;
+    margin: 4% 0;
+}
+.footer-section h2, .search-div h2, .quick-links h3 {
+    font-size: 16px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
